@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Base::Application.load_tasks
+FabesRailsExample::Application.load_tasks

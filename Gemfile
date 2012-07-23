@@ -10,6 +10,7 @@ gem 'pry'
 gem 'pry-nav'
 gem 'haml'
 gem 'devise'
+gem 'fabes'
 
 group :assets do
   gem 'sass-rails'

@@ -1,0 +1,14 @@
+development: &development
+  adapter: postgresql
+  database: example_dev
+  username: boring_user
+  password: cachirulo
+  min_messages: error
+  pool: 5
+  timeout: 5000
+
+test:
+  <<: *development
+
+production:
+  <<: *development
