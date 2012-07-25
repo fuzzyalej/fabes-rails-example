@@ -1,3 +1,3 @@
 Fabes.configure do |config|
-  config.use adapter: :redis
+  config.bandit_factor 0.25
 end
